@@ -16,8 +16,8 @@ $animals = [
 
 
 $items = [
-    new Items(1, 'https://m.media-amazon.com/images/I/61Gm70FJSxL._AC_UF894,1000_QL80_.jpg', 'Crocchette per cane adulto', 29, $categories[0], $Animals),
-    new Items(2, 'https://m.media-amazon.com/images/I/61L6e-DNrzL._AC_UF1000,1000_QL80_.jpg', 'Crocchette per cane adulto', 45, $categories[0], $Animals[0]),
+    new Items(1, 'https://m.media-amazon.com/images/I/61Gm70FJSxL._AC_UF894,1000_QL80_.jpg', 'Crocchette per cane adulto', 29, $categories[0], $animals[0]),
+    new Items(2, 'https://m.media-amazon.com/images/I/61L6e-DNrzL._AC_UF1000,1000_QL80_.jpg', 'Crocchette per cane adulto', 45, $categories[0], $animals[0]),
 ];
 
 ?>
