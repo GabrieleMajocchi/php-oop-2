@@ -11,7 +11,7 @@ class Items{
     public $category;
     public $animals;
 
-    function __construct( Int $id, String $img, String $title,  Int $price, Category $category, Animals $animals){
+    function __construct( Int $id, String $img, String $title, $price, Category $category, Animals $animals){
         $this->id = $id;
         $this->img = $img;
         $this->title = $title;
